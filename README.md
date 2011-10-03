@@ -25,7 +25,7 @@ To sync the stack across your computers. Run the following command:
 
     mkdir $HOME/Dropbox/mind_stack && ln -nfs $HOME/.mind_stack $HOME/Dropbox/mind_stack
 
-To show the top three tasks on your stack, tweak your `.xmobarrc` as per the `.xmobarrc` in the repo
+To show the top three tasks in your xmobar, tweak your `.xmobarrc` as per the `.xmobarrc` in the repo
 
     Config {
            ....
