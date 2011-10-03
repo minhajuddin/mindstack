@@ -21,3 +21,7 @@ A bash script to store your thoughts/tasks/whatever on a stack. Usage:
     s edit #to edit the whole list in vi
     s help #to print this usage/help
 
+To sync the stack across your computers. Run the following command:
+
+    mkdir $HOME/Dropbox/mind_stack && ln -nfs $HOME/.mind_stack $HOME/Dropbox/mind_stack
+
